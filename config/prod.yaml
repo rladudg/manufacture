@@ -1,0 +1,4 @@
+log_level: "INFO"
+log_format: "json"
+device: "cpu"
+active_learning_enabled: true

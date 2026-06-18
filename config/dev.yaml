@@ -1,0 +1,4 @@
+log_level: "DEBUG"
+log_format: "text"
+device: "cpu"
+active_learning_enabled: false

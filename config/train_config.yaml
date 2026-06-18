@@ -1,0 +1,12 @@
+# config/train_config.yaml
+path: C:/Team2_2/yolo_training/RealDatas-V2-real
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 9
+names: [
+  'capacitor', 'capacitor_defective', 'capacitor_normal',
+  'regulator', 'regulator_defective', 'regulator_normal',
+  'transistor', 'transistor_defective', 'transistor_normal'
+]
